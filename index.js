@@ -14,8 +14,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/', usersRouter);
 
-
-
 app.listen(5000,()=>{
   console.log(`successfully listening on port`,5000);
 })
